@@ -144,3 +144,14 @@ print(WHY_MAN)
 #     command = input(">")
 #     if command.lower() != "quit":
 #         break
+
+# Exercise 
+# Write a program to display the even number between 1 to 
+# count = 0
+# for x in range(1,10,2):
+#     if x % 2 == 0:
+#         print(x)
+#         count += x
+
+# print(f"We have {count} even number") 
+     
