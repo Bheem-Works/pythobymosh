@@ -73,3 +73,19 @@ print(WHY_MAN)
 # print(10 // 2) 
 # print(10%3)
 # prin(3**3)
+
+# function to work with the numbers;
+
+# print(round(2.9))
+# abs(abs(-2.9))
+
+
+# import math the math at the top
+# this is the complext one
+
+
+# type conversion
+# x = input('x:')
+# y = int (x) + 1
+# print(f"x:{x},y:{y}")
+# for the concat is the f"
