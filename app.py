@@ -154,4 +154,32 @@ print(WHY_MAN)
 #         count += x
 
 # print(f"We have {count} even number") 
-     
+
+# def greet(firstArgument):
+#     print(firstArgument)
+
+# greet('hello')
+
+# function 
+
+# def greet():
+#   print()
+
+
+# types of the functions
+# 1 functions that perform task
+# 2 function return a value
+
+# optional parameter
+# def increment (number,by=1):
+# return number + by
+
+
+# def multiply (*numbers):
+#     tatal = 1
+# 	for number in numbers:
+# 	total *= number
+# return total
+
+
+# multiply(2,3,4,5)
