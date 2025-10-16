@@ -38,3 +38,38 @@ print(WHY_MAN)
 
 # course = 'python\\programming'
 # print(course)
+
+
+# Primitive type data in the python: 
+# number 
+# string
+# Boolean 
+ 
+
+   
+# formatted string
+# first = 'vim'
+# last = 'magar'
+# full = f"{first} {last}"
+# print(full)
+
+
+# string methods;
+# course = 'vim'
+# course.upper()
+# course.lower()
+# course.title()
+# course.strip()
+# course.lstrip()
+# course.rstrip()
+# course.find("pro") # if we get the negative -1 then it mean we didn't find
+
+# course.replace("p","j")
+# print("pro" in course) == 
+# print("swift" not in course) !== 
+
+
+# math
+# print(10 // 2) 
+# print(10%3)
+# prin(3**3)
