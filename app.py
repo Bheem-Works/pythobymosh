@@ -13,3 +13,28 @@ print(WHY_MAN)
 # what does the linter do ? 
 # -> The linter is a tool which check the our code potential errors mostly in the syntax errors types. 
 
+# triple_quote = """ 
+# hello my name is vim 
+# and this is the 
+# triple
+# quote
+# the python is so handy
+# for no reason haha 
+# i am enjoying it just because it is easy ? huhu haha 
+# """
+# print(triple_quote)
+
+# students_count = "hello mom" 
+# print(len(students_count))
+# print(students_count[0])
+# print(students_count[0:3])
+# print(students_count[0:])
+# print(students_count[:])
+
+# \"
+# \'
+# \\
+# \n
+
+# course = 'python\\programming'
+# print(course)
