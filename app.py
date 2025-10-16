@@ -91,16 +91,56 @@ print(WHY_MAN)
 # for the concat is the f"
 
 # if statement 
-user = 9
+# user = 9
 
-if user > 3 : 
-    print("greater then three")
-elif(user > 7):
-    print("greater then 7")
-else:
-    print("second one is greater")
+# if user > 3 : 
+#     print("greater then three")
+# elif(user > 7):
+#     print("greater then 7")
+# else:
+#     print("second one is greater")
 
 # ternery operator 
-age = 13
-message = "can" if age > 15 else "can;t be"
-print(message)
+# age = 13
+# message = "can" if age > 15 else "can;t be"
+# print(message)
+
+# logical operator 
+# and 
+# or 
+# not
+
+# high_incom = true
+# good_income = true
+# student = false
+
+# if (high_income and good_income) and not student:
+# 	print('eligible')
+# else:
+
+# if not student:
+#     print('hello')
+# else:
+#     print('bye')
+    
+# age = 13
+# if 12 <= age < 45:
+#     print('true')
+
+# success = False 
+
+# for banana in range (1,4):
+#     print('vim',banana,banana* ".")
+#     if success:
+#         print('sucess')
+#         break
+
+# command = ''
+# while command.lower() != 'quit':
+#     command = input(">")
+#     print('Echo',command)
+
+# while true:
+#     command = input(">")
+#     if command.lower() != "quit":
+#         break
