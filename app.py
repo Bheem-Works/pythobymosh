@@ -89,3 +89,18 @@ print(WHY_MAN)
 # y = int (x) + 1
 # print(f"x:{x},y:{y}")
 # for the concat is the f"
+
+# if statement 
+user = 9
+
+if user > 3 : 
+    print("greater then three")
+elif(user > 7):
+    print("greater then 7")
+else:
+    print("second one is greater")
+
+# ternery operator 
+age = 13
+message = "can" if age > 15 else "can;t be"
+print(message)
