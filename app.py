@@ -183,3 +183,15 @@ print(WHY_MAN)
 
 
 # multiply(2,3,4,5)
+
+johnson_game = 'today i play the johnson game which is very funny'
+print(johnson_game)
+
+store = ['vim','bhadur','khapangi','magar']
+for store in range(5):
+    print(number)
+
+
+# do i need to build something from by using the python ? 
+# --> first i need to learn it properly first but i can build simple stuuff 
+# however i have the knowledge about the conditions and loops and the fuunctions so it is helpfuul somehow for me. 
