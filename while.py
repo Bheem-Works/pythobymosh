@@ -16,3 +16,6 @@ while True:
     else:
         print("yeh this is the calculation")
         break
+
+for i in range(6):
+    print(i * '*')

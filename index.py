@@ -24,3 +24,10 @@ elif symbol == '%':
     print(modulas)
 else:
     print("Enter the integer value only😭")
+
+# fibonacci in the python 
+a,b = 0,1
+while a < 10:
+    print(a) 
+    a,b =b, a+b
+
