@@ -1,3 +1,4 @@
+# python first projects for the beginners; 
 import random 
 
 while True:
@@ -11,3 +12,6 @@ while True:
       break
   else:
       print('Invalid choice!')
+
+
+# this is the mosh code and this is the first projects of the python 
