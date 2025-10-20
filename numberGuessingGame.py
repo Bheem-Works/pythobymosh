@@ -1,6 +1,7 @@
 import random
 
 # print user have to guess the number 
+print()
 # check if the user has type the number or not 
 # while 
 # create a variable of the computer and the user_value 
