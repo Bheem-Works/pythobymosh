@@ -1,24 +1,22 @@
 import random
 
 print('user have to guess the number')
-computer_number = random.randint(1,10)
+number_to_guess = random.randint(1,10)
 while True:
     try:
-      user_number = int(input("choose the number between (1/10): "))
-      # the (try) will try this and when the string can not be converted to the number it throw the valueError 
-      # and then we get the valueError and we except that and if it has then through the ouput  
+      user_number = int(input("choose the number between (1/10): ")) 
     except ValueError:
         print("Mr enter the valid number")
         break
-    if user_number == computer_number:
-        print(f'congratulation you have win. computer move was = {computer_number} ')
+    if user_number == number_to_guess:
+        print(f'congratulation you have win. computer move was = {number_to_guess} ')
         break
-    elif user_number < computer_number:
+    elif user_number < number_to_guess:
         print("Sorry it's to low")
-        print(f'({computer_number})')
-    elif user_number > computer_number:
+        print(f'({number_to_guess})')
+    elif user_number > number_to_guess:
         print("sorry it's too high")
- 
+
     
 
 
