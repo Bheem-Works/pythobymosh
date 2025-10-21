@@ -1,15 +1,5 @@
-count = 0
-
-def add():
-    global count
-    count += 1
-
-add()
-add()
-print(count)  # ✅ 1
-
-a = b = c = 'hello'
-print(a)
-print(b)
-print(c)
-
+user_message = "hello"
+if type(user_message) == str:
+    print("this is the string")
+elif (user_message) == int:
+    print("this is the number")
