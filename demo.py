@@ -1,5 +1,4 @@
-user_message = "hello"
-if type(user_message) == str:
-    print("this is the string")
-elif (user_message) == int:
-    print("this is the number")
+import random
+
+number_to_guess = random.randint(1,3)
+print(number_to_guess)
