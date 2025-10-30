@@ -1,44 +1,31 @@
-# The rock paper scissor projects; 
+import  random 
 
-import random
-
-computer_choose = random.randint(1,3)
-if computer_choose == 1:
-    r = 'rock'
-    print(rock)
-elif computer_choose == 2:
-    p = 'paper'
-    print(paper)
-elif computer_choose == 3:
-    s = 'scissor'
-    print(scissor)
-user_input = input("Enter the (r,p,s)")
-if user_input == 'r':
-    u_r = 'rock'
-elif user_input == 's':
-    u_s = 'scissor'
-elif user_input == 'p':
-    u_p = 'paper'
-else:
-    print("Please enter according to the statement")
 while True:
-    if rock == u_r:
-        print("Computer has choose the rock and you also have choose the rock")
-    elif rock == u_s:
-        print("Computer has choose the rock and you have choose the paper")
-    elif rock == u_p:
-        print("computer has choose the rock and you have choose the paper")
-    elif paper == u_s:
-        print("Computer have choose the paper and You  choosen the scissor")
-    elif paper == u_r:
-        print("computer hass choosen the paper and you have choosen the rock")
-    elif paper == u_p:
-        print("Computer has choosen the paper and the you have choosen the paper")
-    elif scissor == u_r:
-        print("Computer has choose the scissor and you have choosen the rock")
-    elif scissor == u_p:
-        print("Computer has choosen the scissor and you have choosen the paper")
-    elif scissor == u_s:
-        print("Computer has chosen the scissor and you have also choosen the scissor")
+    computer_choice = random.choice(['rock','paper','scissor'])
+    user_input = input("Enter (r,p,s): ").lower()
+    if user_input == 'r':
+        user_choose = 'rock'
+    elif user_input == 'p':
+        user_choose == 'paper'
+    elif user_input == 's':
+        user_choose == 'scissor'
     else:
-        print("Why don't you choose anythuing's else")
+        print("Please enter the valid choice (r,s,p)")
+        continue
+    print(f"Computer choose {computer_choice} ") 
+    print(f"You choice{user_choose}")
+
+    if computer_choice == user_choose:
+        print("It's tie ")
+    elif (
+        (computer_choice == 'rock' and user_choose == 'scissor') or
+        (computer_choice == 'paper' and user_choose == 'rock') or
+        (computer_choice == 'scissor' and user_choose == 'paper')
+    ):
+      print("Computer win")
+    else:
+        print("You win ")
+    user_wantTo = input("Want to continue ? (y/n):").lower()
+    if user_wantTo!= 'y':
+       print("Thanks for playing")
+       break
